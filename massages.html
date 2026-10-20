@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Massages ayurvédiques à Gaël (35) | À la douce heure</title>
+  <meta name="description" content="Massage ayurvédique à l'huile chaude, massage au féminin, périnatal, bébé, accompagnement des personnes fragilisées : les massages bien-être de Nathalie Chatelet à Gaël.">
+  <link rel="canonical" href="https://aladouceheure.fr/massages.html">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="À la douce heure">
+  <meta property="og:title" content="Massages ayurvédiques à Gaël (35) | À la douce heure">
+  <meta property="og:description" content="Massage ayurvédique à l'huile chaude, massage au féminin, périnatal, bébé, accompagnement des personnes fragilisées : les massages bien-être de Nathalie Chatelet à Gaël.">
+  <meta property="og:url" content="https://aladouceheure.fr/massages.html">
+  <meta property="og:image" content="https://aladouceheure.fr/images/partage-reseaux.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="theme-color" content="#F5F9F9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#10162A" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="images/favicon-192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+  <link rel="preload" href="fonts/outfit-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/lato-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="contenu.json" as="fetch" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="massages">
+  <a class="lien-evitement" href="#contenu">Aller au contenu</a>
+  <div id="alerte-technique" class="alerte-technique" role="alert" hidden></div>
+
+  <header class="entete">
+    <div class="conteneur entete__barre">
+      <a class="marque" href="index.html">
+        <span class="pastille-logo"><img src="images/favicon-192.png" alt="" width="40" height="40"></span>
+        <span class="marque__nom" data-texte="site.nom">À la douce heure</span>
+      </a>
+      <nav class="menu" id="menu" aria-label="Menu principal">
+        <ul>
+          <li><a href="massages.html" aria-current="page">Les massages</a></li>
+          <li><a href="tarifs.html">Tarifs</a></li>
+          <li><a href="plaisirs-d-offrir.html">Plaisirs d'offrir</a></li>
+          <li><a href="derriere-les-mains.html">Derrière les mains</a></li>
+          <li><a href="prendre-soin-de-soi.html">Prendre soin de soi</a></li>
+          <li><a href="cabinet.html">Le cabinet</a></li>
+        </ul>
+      </nav>
+      <a class="bouton bouton--plein entete__rdv" data-lien-reservation href="#contact">Prendre rendez-vous</a>
+      <button class="menu-bouton" type="button" aria-expanded="false" aria-controls="menu">
+        <svg class="icone" aria-hidden="true"><use href="images/icones.svg#i-list"></use></svg>
+        <span>Menu</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="page-entete" aria-labelledby="titre-page">
+      <div class="conteneur">
+        <div class="page-entete__photo" id="page-photo"></div>
+        <div class="page-entete__carte">
+          <h1 id="titre-page" data-texte="pages.massages.titre">Les massages</h1>
+          <p class="page-entete__intro" data-texte="pages.massages.introduction"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section ayurveda" id="ayurveda" aria-labelledby="titre-ayurveda">
+      <div class="conteneur">
+        <div class="ayurveda__grille">
+          <div class="ayurveda__texte revele">
+            <h2 id="titre-ayurveda" data-texte="massage_ayurvedique.titre"></h2>
+            <div id="ayurveda-paragraphes"></div>
+          </div>
+          <div class="ayurveda__photo revele" id="ayurveda-photo"></div>
+        </div>
+        <div class="deroule revele">
+          <h3 data-texte="massage_ayurvedique.deroule_titre"></h3>
+          <ol class="deroule__liste" id="deroule"></ol>
+        </div>
+      </div>
+    </section>
+
+    <section class="section massages" id="massages" aria-labelledby="titre-massages">
+      <div class="conteneur">
+        <header class="section__entete revele">
+          <h2 id="titre-massages" data-texte="massages.titre"></h2>
+        </header>
+        <div class="bento" id="liste-massages"></div>
+      </div>
+    </section>
+
+    <section class="section sante" id="sante" aria-labelledby="titre-sante">
+      <div class="conteneur sante__bloc revele">
+        <svg class="icone sante__icone" aria-hidden="true"><use href="images/icones.svg#i-info"></use></svg>
+        <p class="sante__message" id="titre-sante" data-texte="avertissement_sante"></p>
+        <div class="sante__precautions">
+          <h3 data-texte="precautions.titre"></h3>
+          <p data-texte="precautions.texte"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="titre-contact">
+      <div class="conteneur contact__bloc revele">
+        <span class="galet galet--turquoise" aria-hidden="true"></span>
+        <h2 id="titre-contact">Prendre rendez-vous</h2>
+        <p class="contact__texte" data-texte="contact.texte_reservation"></p>
+        <a class="bouton bouton--plein bouton--grand" data-lien-reservation href="#contact">Prendre rendez-vous</a>
+        <ul class="contact__moyens" id="moyens-contact"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pied">
+    <div class="conteneur pied__grille">
+      <div class="pied__marque">
+        <span class="pastille-logo pastille-logo--grande"><img src="images/logo.png" alt="" width="64" height="63"></span>
+        <div>
+          <p class="pied__nom" data-texte="site.nom"></p>
+          <address id="pied-adresse"></address>
+        </div>
+      </div>
+      <ul class="pied__liens">
+        <li><a href="mentions-legales.html">Mentions légales</a></li>
+        <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+      </ul>
+      <p class="pied__copyright">© <span id="annee"></span> <span data-texte="site.nom"></span>. Site sans cookies ni traceurs.</p>
+    </div>
+  </footer>
+
+  <a class="rdv-mobile bouton bouton--plein" data-lien-reservation href="#contact">
+    <svg class="icone" aria-hidden="true"><use href="images/icones.svg#i-calendar-check"></use></svg>Prendre rendez-vous
+  </a>
+
+  <noscript><p class="alerte-technique">Ce site a besoin de JavaScript pour afficher son contenu.</p></noscript>
+  <script src="js/site.js" defer></script>
+</body>
+</html>

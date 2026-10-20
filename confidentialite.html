@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Politique de confidentialité | À la douce heure</title>
+  <meta name="description" content="Politique de confidentialité du site À la douce heure : aucun cookie, aucun traceur, aucune donnée collectée par le site.">
+  <link rel="canonical" href="https://aladouceheure.fr/confidentialite.html">
+  <meta name="theme-color" content="#F5F9F9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#10162A" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+  <link rel="preload" href="fonts/outfit-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="legale" data-cle="confidentialite">
+  <a class="lien-evitement" href="#contenu">Aller au contenu</a>
+  <div id="alerte-technique" class="alerte-technique" role="alert" hidden></div>
+
+  <header class="entete">
+    <div class="conteneur entete__barre">
+      <a class="marque" href="index.html">
+        <span class="pastille-logo"><img src="images/favicon-192.png" alt="" width="40" height="40"></span>
+        <span class="marque__nom" data-texte="site.nom">À la douce heure</span>
+      </a>
+      <nav class="menu" id="menu" aria-label="Menu principal">
+        <ul>
+          <li><a href="massages.html">Les massages</a></li>
+          <li><a href="tarifs.html">Tarifs</a></li>
+          <li><a href="plaisirs-d-offrir.html">Plaisirs d'offrir</a></li>
+          <li><a href="derriere-les-mains.html">Derrière les mains</a></li>
+          <li><a href="prendre-soin-de-soi.html">Prendre soin de soi</a></li>
+          <li><a href="cabinet.html">Le cabinet</a></li>
+        </ul>
+      </nav>
+      <a class="bouton bouton--plein entete__rdv" data-lien-reservation href="#contact">Prendre rendez-vous</a>
+      <button class="menu-bouton" type="button" aria-expanded="false" aria-controls="menu">
+        <svg class="icone" aria-hidden="true"><use href="images/icones.svg#i-list"></use></svg>
+        <span>Menu</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenu" class="page-legale">
+    <div class="conteneur">
+      <a class="retour" href="index.html"><svg class="icone" aria-hidden="true"><use href="images/icones.svg#i-arrow-left"></use></svg>Retour à l'accueil</a>
+      <h1 id="page-titre">Politique de confidentialité</h1>
+      <div id="page-contenu"></div>
+      <p class="page-legale__maj" id="page-maj"></p>
+    </div>
+  </main>
+
+  <footer class="pied">
+    <div class="conteneur pied__grille">
+      <div class="pied__marque">
+        <span class="pastille-logo pastille-logo--grande"><img src="images/logo.png" alt="" width="64" height="63"></span>
+        <div>
+          <p class="pied__nom" data-texte="site.nom"></p>
+          <address id="pied-adresse"></address>
+        </div>
+      </div>
+      <ul class="pied__liens">
+        <li><a href="mentions-legales.html">Mentions légales</a></li>
+        <li><a href="confidentialite.html" aria-current="page">Politique de confidentialité</a></li>
+      </ul>
+      <p class="pied__copyright">© <span id="annee"></span> <span data-texte="site.nom"></span>. Site sans cookies ni traceurs.</p>
+    </div>
+  </footer>
+
+  <noscript><p class="alerte-technique">Ce site a besoin de JavaScript pour afficher son contenu.</p></noscript>
+  <script src="js/site.js" defer></script>
+</body>
+</html>

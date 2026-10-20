@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>À la douce heure | Massages ayurvédiques à Gaël (35)</title>
+  <meta name="description" content="Massages ayurvédiques à l'huile chaude à Gaël, en Ille-et-Vilaine, avec Nathalie Chatelet. Un moment de détente et de bien-être, à tout âge de la vie.">
+  <link rel="canonical" href="https://aladouceheure.fr/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="À la douce heure">
+  <meta property="og:title" content="À la douce heure | Massages ayurvédiques à Gaël (35)">
+  <meta property="og:description" content="Massages ayurvédiques à l'huile chaude à Gaël, en Ille-et-Vilaine, avec Nathalie Chatelet. Un moment de détente et de bien-être, à tout âge de la vie.">
+  <meta property="og:url" content="https://aladouceheure.fr/">
+  <meta property="og:image" content="https://aladouceheure.fr/images/partage-reseaux.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <meta name="theme-color" content="#F5F9F9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#10162A" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="images/favicon-192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+  <link rel="preload" href="fonts/outfit-variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/lato-400.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="contenu.json" as="fetch" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="accueil">
+  <a class="lien-evitement" href="#contenu">Aller au contenu</a>
+  <div id="alerte-technique" class="alerte-technique" role="alert" hidden></div>
+
+  <header class="entete">
+    <div class="conteneur entete__barre">
+      <a class="marque" href="index.html" aria-current="page">
+        <span class="pastille-logo"><img src="images/favicon-192.png" alt="" width="40" height="40"></span>
+        <span class="marque__nom" data-texte="site.nom">À la douce heure</span>
+      </a>
+      <nav class="menu" id="menu" aria-label="Menu principal">
+        <ul>
+          <li><a href="massages.html">Les massages</a></li>
+          <li><a href="tarifs.html">Tarifs</a></li>
+          <li><a href="plaisirs-d-offrir.html">Plaisirs d'offrir</a></li>
+          <li><a href="derriere-les-mains.html">Derrière les mains</a></li>
+          <li><a href="prendre-soin-de-soi.html">Prendre soin de soi</a></li>
+          <li><a href="cabinet.html">Le cabinet</a></li>
+        </ul>
+      </nav>
+      <a class="bouton bouton--plein entete__rdv" data-lien-reservation href="#contact">Prendre rendez-vous</a>
+      <button class="menu-bouton" type="button" aria-expanded="false" aria-controls="menu">
+        <svg class="icone" aria-hidden="true"><use href="images/icones.svg#i-list"></use></svg>
+        <span>Menu</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="contenu">
+    <section class="hero" id="accueil" aria-labelledby="titre-accueil">
+      <div class="conteneur hero__grille">
+        <div class="hero__texte">
+          <p class="hero__marque">
+            <span class="pastille-logo pastille-logo--grande"><img src="images/logo.png" alt="Logo À la douce heure" width="64" height="63"></span>
+            <span><strong data-texte="site.nom"></strong><br><span data-texte="site.slogan"></span></span>
+          </p>
+          <h1 id="titre-accueil" data-texte="accueil.titre"></h1>
+          <p class="hero__sous-titre" data-texte="accueil.texte"></p>
+          <div class="hero__actions">
+            <a class="bouton bouton--plein bouton--grand" data-lien-reservation href="#contact">Prendre rendez-vous</a>
+            <a class="lien-fleche" href="tarifs.html">Voir les tarifs <svg class="icone" aria-hidden="true"><use href="images/icones.svg#i-arrow-up-right"></use></svg></a>
+          </div>
+        </div>
+        <div class="hero__visuel">
+          <span class="galet galet--turquoise" aria-hidden="true"></span>
+          <span class="galet galet--peche" aria-hidden="true"></span>
+          <div class="hero__photo" id="hero-photo"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section decouvrir" id="decouvrir" aria-labelledby="titre-decouvrir">
+      <div class="conteneur">
+        <h2 id="titre-decouvrir" class="visuellement-cache">Découvrir le site</h2>
+        <ul class="tuiles" id="tuiles"></ul>
+      </div>
+    </section>
+
+    <section class="section cabinet pratique" id="pratique" aria-labelledby="titre-pratique">
+      <div class="conteneur">
+        <h2 id="titre-pratique" class="visuellement-cache">Infos pratiques</h2>
+        <div class="cabinet__infos">
+          <div class="cabinet__acces revele">
+            <h3><svg class="icone" aria-hidden="true"><use href="images/icones.svg#i-map-pin"></use></svg>Adresse et accès</h3>
+            <address id="adresse"></address>
+            <p class="pratique__liens">
+              <a class="lien-fleche" id="lien-itineraire" href="#" target="_blank" rel="noopener">Itinéraire <svg class="icone" aria-hidden="true"><use href="images/icones.svg#i-arrow-up-right"></use></svg></a>
+              <a class="lien-fleche" href="cabinet.html">Voir le cabinet, à Gaël et à Guidel <svg class="icone" aria-hidden="true"><use href="images/icones.svg#i-arrow-up-right"></use></svg></a>
+            </p>
+            <ul class="liste-simple" id="infos-pratiques"></ul>
+          </div>
+          <div class="horaires revele">
+            <h3><svg class="icone" aria-hidden="true"><use href="images/icones.svg#i-clock"></use></svg><span data-texte="horaires.titre"></span></h3>
+            <dl class="horaires__liste" id="horaires"></dl>
+            <p class="horaires__note" data-texte="horaires.note"></p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="titre-contact">
+      <div class="conteneur contact__bloc revele">
+        <span class="galet galet--turquoise" aria-hidden="true"></span>
+        <h2 id="titre-contact">Prendre rendez-vous</h2>
+        <p class="contact__texte" data-texte="contact.texte_reservation"></p>
+        <a class="bouton bouton--plein bouton--grand" data-lien-reservation href="#contact">Prendre rendez-vous</a>
+        <ul class="contact__moyens" id="moyens-contact"></ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pied">
+    <div class="conteneur pied__grille">
+      <div class="pied__marque">
+        <span class="pastille-logo pastille-logo--grande"><img src="images/logo.png" alt="" width="64" height="63"></span>
+        <div>
+          <p class="pied__nom" data-texte="site.nom"></p>
+          <address id="pied-adresse"></address>
+        </div>
+      </div>
+      <ul class="pied__liens">
+        <li><a href="mentions-legales.html">Mentions légales</a></li>
+        <li><a href="confidentialite.html">Politique de confidentialité</a></li>
+      </ul>
+      <p class="pied__copyright">© <span id="annee"></span> <span data-texte="site.nom"></span>. Site sans cookies ni traceurs.</p>
+    </div>
+  </footer>
+
+  <a class="rdv-mobile bouton bouton--plein" data-lien-reservation href="#contact">
+    <svg class="icone" aria-hidden="true"><use href="images/icones.svg#i-calendar-check"></use></svg>Prendre rendez-vous
+  </a>
+
+  <noscript><p class="alerte-technique">Ce site a besoin de JavaScript pour afficher son contenu.</p></noscript>
+  <script src="js/site.js" defer></script>
+</body>
+</html>

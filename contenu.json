@@ -1,0 +1,442 @@
+{
+  "_aide": "Modifiez seulement le texte entre guillemets, à droite des deux-points. Gardez les guillemets, les virgules et les accolades. Guide complet : GUIDE-modifier-le-site.pdf",
+
+  "tarifs": {
+    "prestations": [
+      { "nom": "Massage", "duree": "45 min", "prix": "55 €", "description": "" },
+      { "nom": "Massage", "duree": "1 h", "prix": "75 €", "description": "" },
+      { "nom": "Massage", "duree": "1 h 15", "prix": "85 €", "description": "" },
+      { "nom": "Massage", "duree": "1 h 30", "prix": "90 €", "description": "" },
+      { "nom": "Massage périnatal", "duree": "1 h 15", "prix": "90 €", "description": "Pour les futures et jeunes mamans" }
+    ],
+    "a_domicile": "En EHPAD ou à domicile : renseignements et devis sur demande."
+  },
+
+  "paiement": {
+    "titre": "Moyens de paiement",
+    "moyens": ["Chèque", "Espèces"]
+  },
+
+  "annulation": {
+    "titre": "Annulation",
+    "texte": "Pas de frais d'annulation."
+  },
+
+  "bons_cadeaux": {
+    "titre": "Bons cadeaux",
+    "texte": "Faites plaisir à vos proches : offrez-leur un instant de détente et de lâcher-prise.",
+    "validite": "6 mois",
+    "comment_commander": "Sur demande : la carte cadeau est complétée puis transmise par le cabinet.",
+    "en_ligne": "Achetez le bon cadeau directement sur la boutique en ligne, pour l'offrir.",
+    "lien_boutique": "https://a-la-douce-heure.my-shoop.store/",
+    "lien_boutique_texte": "Offrir un bon cadeau en ligne",
+    "image": "images/carte-cadeau-bouquet.jpg",
+    "image_description": "La carte cadeau À la douce heure posée près d'un bouquet d'épis séchés et d'un vase blanc"
+  },
+
+  "offres": [
+    { "afficher": false, "titre": "Carte de fidélité", "texte": "Décrivez ici votre offre, puis remplacez false par true pour l'afficher." }
+  ],
+
+  "horaires": {
+    "titre": "Horaires",
+    "jours": [
+      { "jour": "Lundi", "heures": "14 h - 18 h" },
+      { "jour": "Mardi", "heures": "9 h - 18 h" },
+      { "jour": "Mercredi", "heures": "9 h - 18 h" },
+      { "jour": "Jeudi", "heures": "9 h - 18 h" },
+      { "jour": "Vendredi", "heures": "9 h - 12 h" },
+      { "jour": "Samedi", "heures": "Fermé" },
+      { "jour": "Dimanche", "heures": "Fermé" }
+    ],
+    "note": "Sur rendez-vous."
+  },
+
+  "contact": {
+    "telephone": "06 13 92 34 59",
+    "email": "aladouceheure35@gmail.com",
+    "lien_reservation": "https://perfactive.fr/praticienne-en-massage-bien-etre/gael/nathalie-chatelet",
+    "texte_reservation": "Choisissez votre créneau en ligne. Vous pouvez aussi m'appeler ou m'écrire : nous fixons le rendez-vous ensemble.",
+    "instagram": "",
+    "avis_google": "https://www.google.com/search?sca_esv=ba26d991ad3ae1a8&rlz=1C1GCEU_frFR1193FR1193&sxsrf=APpeQnvnt1qpGDLR7DDL4f_rqTzsPY-Z0g:1791230312227&q=la+douce+heure+perfactive&si=APenkKm7iecQ4G6P-TsbSMFKIQtv3EFIqRAFw-i8uEbk55Z-_xWKjzOxdgUdDiqBu2aLrgjhu4BokQPqRsyAC6ZQa4E0yqkTViIbPBNLKUqLz6xScLn1oEo%3D&uds=AJ5uw188wWN8SkrC9q-xYaK174H7DjaEN7C17CBKn8pR6pleoPGA35ZertrCLSI7JzOv0pGgZXABPazeI5nA4Zo_ZSxvxB7u9woZ0_Q6I4Hj7tve3ZgLZZjYlJM-nHlhY2L4spXSlOBK&sa=X&ved=2ahUKEwimheLz1KOXAxVkOfsDHcpHBvAQ3PALegQIMBAF&biw=1450&bih=910&dpr=1"
+  },
+
+  "site": {
+    "nom": "À la douce heure",
+    "slogan": "Massages bien-être",
+    "praticienne": "Nathalie Chatelet",
+    "titre_google": "À la douce heure | Massages ayurvédiques à Gaël (35)",
+    "description_google": "Massages ayurvédiques à l'huile chaude à Gaël, en Ille-et-Vilaine, avec Nathalie Chatelet. Un moment de détente et de bien-être, à tout âge de la vie.",
+    "adresse_web": "https://aladouceheure.fr"
+  },
+
+  "pages": {
+    "_aide": "Une entrée par page : titre et phrase du haut de page, photo du haut de page (\"\" pour aucune photo, \"À VENIR\" pour un cadre Photo à venir), titre et description pour Google.",
+    "massages": {
+      "titre": "Les massages",
+      "introduction": "Pour chaque âge de la vie, du tout-petit à la personne âgée.",
+      "photo": "images/ambiance-huile-fleurs.jpg",
+      "photo_description": "Un flacon d'huile dorée entouré de fleurs blanches et roses",
+      "titre_google": "Massages ayurvédiques à Gaël (35) | À la douce heure",
+      "description_google": "Massage ayurvédique à l'huile chaude, massage au féminin, périnatal, bébé, accompagnement des personnes fragilisées : les massages bien-être de Nathalie Chatelet à Gaël."
+    },
+    "tarifs": {
+      "titre": "Tarifs des massages au cabinet",
+      "introduction": "Massage ayurvédique à l'huile chaude. Vous choisissez la durée selon vos besoins.",
+      "photo": "images/ambiance-fleur-serviette.jpg",
+      "photo_description": "Une fleur blanche posée sur une serviette, près d'une bougie allumée",
+      "titre_google": "Tarifs des massages | À la douce heure, Gaël",
+      "description_google": "Tarifs des massages ayurvédiques à l'huile chaude au cabinet de Gaël, de 45 minutes à 1 h 30. Paiement par chèque ou en espèces."
+    },
+    "plaisirs_d_offrir": {
+      "titre": "Plaisirs d'offrir",
+      "introduction": "",
+      "photo": "",
+      "photo_description": "",
+      "titre_google": "Bons cadeaux massage | À la douce heure, Gaël",
+      "description_google": "Offrez un massage bien-être à Gaël : la carte cadeau À la douce heure, valable 6 mois."
+    },
+    "derriere_les_mains": {
+      "titre": "Derrière les mains",
+      "introduction": "",
+      "photo": "",
+      "photo_description": "",
+      "titre_google": "Nathalie Chatelet, praticienne en massage bien-être | À la douce heure",
+      "description_google": "Nathalie Chatelet, praticienne en massage bien-être à Gaël : son parcours et les principes de son cabinet."
+    },
+    "prendre_soin_de_soi": {
+      "titre": "Prendre soin de soi",
+      "introduction": "",
+      "photo": "images/ambiance-galets-mer.jpg",
+      "photo_description": "Des galets empilés sur le sable, au bord de la mer",
+      "titre_google": "Prendre soin de soi | À la douce heure",
+      "description_google": "Bouger et se faire masser régulièrement : quelques repères pour prendre soin de soi tout au long de l'année."
+    },
+    "cabinet": {
+      "titre": "Le cabinet, à Gaël et à Guidel",
+      "introduction": "",
+      "photo": "",
+      "photo_description": "",
+      "titre_google": "Cabinet de massage à Gaël et à Guidel | À la douce heure",
+      "description_google": "Le cabinet de massage bien-être à Gaël (35) : photos, adresse, accès et horaires. Massages possibles également à Guidel (56)."
+    }
+  },
+
+  "accueil": {
+    "titre": "Massages ayurvédiques à l'huile chaude",
+    "texte": "Prendre soin de soi à tout âge de la vie, le temps d'un massage à Gaël.",
+    "photo": "images/cabinet-table-entree.jpg",
+    "photo_description": "La salle de massage vue depuis l'entrée : la table, les rideaux blancs et une suspension en rotin allumée",
+    "tuiles": [
+      { "titre": "Les massages", "texte": "Pour chaque âge de la vie, du tout-petit à la personne âgée.", "page": "massages.html", "photo": "images/massage-mains.jpg" },
+      { "titre": "Tarifs", "texte": "Vous choisissez la durée selon vos besoins.", "page": "tarifs.html", "photo": "images/ambiance-fleur-serviette.jpg" },
+      { "titre": "Plaisirs d'offrir", "texte": "Offrez à vos proches un instant de détente et de lâcher-prise.", "page": "plaisirs-d-offrir.html", "photo": "images/carte-cadeau-bouquet.jpg" },
+      { "titre": "Derrière les mains", "texte": "Bonjour, je suis Nathalie.", "page": "derriere-les-mains.html", "photo": "images/portrait-nathalie.jpg" },
+      { "titre": "Prendre soin de soi", "texte": "Bouger, et s'accorder ce temps tout au long de l'année.", "page": "prendre-soin-de-soi.html", "photo": "images/ambiance-galets-mer.jpg" },
+      { "titre": "Le cabinet", "texte": "À Gaël et à Guidel.", "page": "cabinet.html", "photo": "images/cabinet-table-ambiance.jpg" }
+    ]
+  },
+
+  "avertissement_sante": "En cas de doute ou de problème de santé, demandez un avis médical avant la séance.",
+
+  "precautions": {
+    "titre": "Précautions",
+    "texte": "Certaines situations demandent des précautions. Le massage est contre-indiqué en cas d'inflammation de la peau, de troubles dermatologiques sévères, de fracture récente ou de maladie grave non stabilisée. Pendant la grossesse, il est à éviter au premier trimestre. Une opération chirurgicale récente est une contre-indication temporaire, ou doit au moins être signalée pour éviter la zone fragile."
+  },
+
+  "massage_ayurvedique": {
+    "titre": "Le massage ayurvédique",
+    "paragraphes": [
+      "L'ayurvéda, c'est la « science de la vie » indienne. Le massage ayurvédique invite à un rééquilibrage du corps et de l'esprit, et au relâchement des muscles.",
+      "Il alterne des mouvements doux, rapides ou plus appuyés, avec de l'huile chaude. Le rythme, l'huile et les zones massées s'adaptent à vos attentes et à vos ressentis du jour : certaines zones peuvent être privilégiées, d'autres mises de côté.",
+      "C'est un massage très polyvalent : il peut être orienté détente ou récupération sportive."
+    ],
+    "photo": "images/ambiance-carpe-diem.jpg",
+    "photo_description": "Une couronne de fleurs séchées avec l'inscription Carpe diem, accrochée au mur du cabinet",
+    "deroule_titre": "Comment se passe une séance",
+    "deroule": [
+      { "titre": "Un petit échange", "texte": "Nous parlons de ce que vous attendez (détente, récupération...) et des zones à masser." },
+      { "titre": "Le massage", "texte": "À l'huile chaude, de 45 minutes à 1 h 30, selon vos besoins." },
+      { "titre": "Le temps d'émerger", "texte": "Quelques minutes pour revenir doucement, à votre rythme." },
+      { "titre": "Une petite boisson", "texte": "Chaude ou fraîche, avant de repartir." }
+    ]
+  },
+
+  "deontologie": {
+    "titre": "Ma déontologie",
+    "introduction": "Les principes fondamentaux de la déontologie de mon cabinet de massage bien-être.",
+    "photo": "images/ambiance-carpe-diem-miroir.jpg",
+    "photo_description": "La couronne Carpe diem et un miroir en rotin, sur les murs du cabinet",
+    "principes": [
+      { "titre": "Dignité et intégrité", "texte": "Je respecte la dignité et l'intégrité : je garantis la pudeur, l'intimité, le confort physique et émotionnel de mes clients, et ce lors de l'entretien préalable, de la préparation et du massage." },
+      { "titre": "Absence de visée médicale", "texte": "Je n'établis pas de diagnostic, je ne prétends pas soigner une pathologie et je vous orienterai vers un professionnel de santé en cas de doute." },
+      { "titre": "Secret professionnel", "texte": "Je respecte la confidentialité absolue des informations et des confidences recueillies avant, pendant ou après la séance." },
+      { "titre": "Bienveillance et non-discrimination", "texte": "J'accueille chaque personne sans jugement, sans distinction d'origine ou de religion. Afin de garantir un espace de parfaite sérénité, de pudeur et de totale confiance, l'ensemble de mes massages est exclusivement réservé au public féminin, à l'exception des massages proposés en EHPAD. Merci de votre compréhension." },
+      { "titre": "Garantie de l'hygiène et de la sécurité", "texte": "Le linge est changé après chaque massage, les mains et le matériel sont lavés. Les huiles naturelles sont sélectionnées rigoureusement." },
+      { "titre": "Limites de compétences", "texte": "J'exerce uniquement dans le cadre de ma formation de masseuse bien-être et je me donnerai le droit de refuser une prestation pour laquelle je ne suis pas qualifiée. Les soins proposés n'ont aucune visée thérapeutique et ne présentent aucun caractère érotique ou sexuel." }
+    ]
+  },
+
+  "massages": {
+    "titre": "Les différents massages",
+    "liste": [
+      {
+        "afficher": true,
+        "nom": "Massage au féminin",
+        "pour_qui": "Pour les femmes",
+        "texte": "Je vous accueille dans mon cabinet pour un moment de lâcher-prise et de détente profonde.",
+        "points": [],
+        "infos": "Au cabinet, à Gaël.",
+        "tarif": "",
+        "photo": "images/massage-mains.jpg",
+        "photo_description": "Des mains massant doucement la paume d'une main"
+      },
+      {
+        "afficher": true,
+        "nom": "Massage périnatal",
+        "pour_qui": "Pour les futures et jeunes mamans",
+        "texte": "Ce massage traditionnel d'Inde répond spécifiquement aux besoins du corps, qui vit des transformations rapides pendant la grossesse. Pratiqué à l'huile chaude, avec douceur et fermeté, grâce à des mouvements profonds et enveloppants, et des étirements doux. Il apporte :",
+        "points": [
+          "du réconfort et de la sérénité, dans une période de vie source de joie, mais aussi parfois d'appréhension ;",
+          "une détente profonde du corps, de la tête aux pieds, en particulier au niveau du bas du dos, des hanches et des jambes ;",
+          "un moment d'apaisement."
+        ],
+        "infos": "À partir du 4e mois de la grossesse, jusqu'à son terme, et aussi après l'arrivée de bébé, sans modération ! Possible à domicile. Rendez-vous : contactez-moi.",
+        "tarif": "1 h 15 : 90 €",
+        "photo": "images/massage-perinatal.jpg",
+        "photo_description": "Le ventre arrondi d'une femme enceinte, avec des chaussons de bébé posés dessus"
+      },
+      {
+        "afficher": true,
+        "nom": "Massage bébé et jeune enfant",
+        "pour_qui": "Pour les parents et leurs enfants de 0 à 3 ans",
+        "texte": "Le toucher est essentiel pour un bébé, et le massage donné à son petit renforce le lien parent-enfant. Une belle occasion de lui offrir beaucoup d'amour et de tendresse !",
+        "points": [],
+        "infos": "Ateliers collectifs ou individuels, pour les enfants de 0 à 3 ans.",
+        "tarif": "Tarif et rendez-vous : contactez-moi",
+        "photo": "images/massage-bebe.jpg",
+        "photo_description": "Le pied d'un bébé posé dans la main d'un adulte"
+      },
+      {
+        "afficher": true,
+        "nom": "Accompagnement des personnes fragilisées",
+        "pour_qui": "Pour les personnes âgées ou en situation de handicap",
+        "texte": "Un moment de bien-être personnalisé et un contact humain chaleureux et rassurant, pour se détendre et se réapproprier son corps.",
+        "points": [],
+        "infos": "Massages proposés en EHPAD ou à domicile.",
+        "tarif": "Renseignements et devis sur demande",
+        "photo": "images/massage-accompagnement.jpg",
+        "photo_description": "Une main posée avec douceur sur les mains d'une personne âgée"
+      },
+      {
+        "afficher": true,
+        "nom": "Massage en duo",
+        "pour_qui": "Pour partager un moment à deux",
+        "texte": "Massage en duo, sur demande.",
+        "points": [],
+        "infos": "",
+        "tarif": "Lieu, tarif et rendez-vous : contactez-moi pour plus de renseignements",
+        "photo": "",
+        "photo_description": ""
+      },
+      {
+        "afficher": true,
+        "nom": "Ateliers entre femmes",
+        "pour_qui": "En projet",
+        "texte": "Je vous montre comment masser, et vous vous massez entre amies : pour un enterrement de vie de jeune fille, ou simplement pour passer un bon moment ensemble.",
+        "points": [],
+        "infos": "",
+        "tarif": "Lieu, tarif et rendez-vous : contactez-moi pour plus de renseignements",
+        "photo": "",
+        "photo_description": ""
+      }
+    ]
+  },
+
+  "cabinet": {
+    "adresse_ligne1": "1, La Ville Rouault",
+    "code_postal": "35290",
+    "ville": "Gaël",
+    "lien_itineraire": "https://www.google.com/maps/search/?api=1&query=1+La+Ville+Rouault+35290+Ga%C3%ABl",
+    "infos_pratiques": [
+      "Parking sur place.",
+      "Le cabinet se trouve à l'étage de mon domicile.",
+      "Accès pour les personnes à mobilité réduite : contactez-moi pour en parler."
+    ],
+    "photos": [
+      { "fichier": "images/cabinet-table-ambiance.jpg", "description": "La table de massage, la couronne Carpe diem et le mot Aimer au mur" },
+      { "fichier": "images/cabinet-table-rideau.jpg", "description": "La table de massage et, derrière le rideau blanc, le coin détente" },
+      { "fichier": "images/cabinet-table-entree.jpg", "description": "La salle de massage vue depuis l'entrée" },
+      { "fichier": "images/cabinet-coin-detente.jpg", "description": "Le coin détente lumineux, pour émerger après le massage" }
+    ]
+  },
+
+  "cabinet_guidel": {
+    "adresse_ligne1": "12, rue des Navigateurs",
+    "code_postal": "56520",
+    "ville": "Guidel",
+    "lien_itineraire": "https://www.google.com/maps/search/?api=1&query=12+rue+des+Navigateurs+56520+Guidel",
+    "texte": "Massages possibles également à Guidel. Massages et rendez-vous : contactez-moi.",
+    "galerie": [
+      { "fichier": "images/guidel-salon-principal.jpg", "description": "La salle de massage à Guidel : la table, un coussin bleu et un miroir rond en rotin" },
+      { "fichier": "images/guidel-salon-plongeante.jpg", "description": "La table de massage, un miroir rond et des décorations en macramé" },
+      { "fichier": "images/guidel-salon-secondaire.jpg", "description": "La salle de massage lumineuse, avec la table, une table basse ronde et des rideaux blancs" },
+      { "fichier": "images/guidel-ambiance-etoile.jpg", "description": "Une étoile de mer et un photophore turquoise posés sur une table en bois" },
+      { "fichier": "images/guidel-ambiance-couronne.jpg", "description": "Une couronne de fleurs séchées sous un portemanteau en bois" }
+    ],
+    "photos": [
+      { "fichier": "images/guidel-plage.jpg", "description": "La plage et la mer à Guidel, sous un ciel bleu" },
+      { "fichier": "images/guidel-exterieur.jpg", "description": "L'entrée de la maison à Guidel, avec son allée pavée" },
+      { "fichier": "images/guidel-coucher-soleil.jpg", "description": "Un coucher de soleil doré sur Guidel" }
+    ]
+  },
+
+  "a_propos": {
+    "titre": "Bonjour, je suis Nathalie",
+    "paragraphes": [
+      "Passionnée par les massages depuis toujours, j'ai récemment choisi d'en faire mon métier. Après 25 ans dans l'enseignement, j'ai fait le choix de m'occuper différemment des autres... en leur apportant et en partageant, avec douceur et bienveillance, tous les bienfaits du massage.",
+      "J'ouvre enfin mon cabinet et vous propose aujourd'hui mes services de massage bien-être.",
+      "Je me suis formée auprès de Magaly Barraud, à Rennes, qui m'a appris les secrets du massage ayurvédique dans toutes ses déclinaisons : corps entier, pieds, haut du corps, massage périnatal et bébé...",
+      "J'ai également complété ma formation avec des massages japonais, qui me permettent de proposer une gamme de massages adaptés à tous les besoins et à tous les âges de la vie.",
+      "Je vous invite à découvrir et à expérimenter la détente du corps et de l'esprit, et à profiter d'un doux moment de lâcher-prise."
+    ],
+    "formation": "",
+    "formation_lien": "",
+    "transition": "Prendre soin de soi ne s'arrête pas à la séance de massage. Prendre soin de son corps, c'est aussi, à mes yeux, l'entretenir en pratiquant une activité physique régulière. Je vous donne quelques repères pour vous accorder ce temps tout au long de l'année.",
+    "photo": "images/portrait-nathalie.jpg",
+    "photo_description": "Portrait de Nathalie Chatelet, souriante"
+  },
+
+  "prendre_soin": {
+    "sport": {
+      "titre": "Bouger",
+      "paragraphes": [
+        "Se faire masser a de multiples vertus, et prendre soin de soi passe aussi par l'entretien d'un corps (et d'un esprit) forts et sains.",
+        "Votre corps est fait pour bouger, se dépenser : si vous faites de l'exercice régulièrement, il saura vous le faire ressentir, et ce, rapidement !",
+        "Sportive débutante ou accomplie, quel que soit votre âge, il est toujours temps de bouger !",
+        "Des cours en solo, mais aussi collectifs, ne pourront que vous être bénéfiques, que ce soit lors d'une journée de repos ou après une journée de travail intense !",
+        "N'hésitez pas à aller voir ici : Gaëlle saura vous aider à reprendre ou à entretenir votre forme !"
+      ],
+      "partenaire": "",
+      "logo": "images/logo-gaelles.png",
+      "logo_description": "Logo de GaElles coaching fitness",
+      "lieu": "Montfort-sur-Meu (35160)",
+      "texte": "",
+      "lien": "https://www.gaellescoachfitness.fr/",
+      "lien_texte": "Découvrir GaElles coaching fitness"
+    },
+    "frequence": {
+      "titre": "À quel rythme se faire masser ?",
+      "etapes": [
+        { "rythme": "1 fois par an", "fois_par_an": 1, "texte": "Vous dépannez votre corps quand il dit stop." },
+        { "rythme": "Tous les 6 mois", "fois_par_an": 2, "texte": "Vous soufflez enfin un peu." },
+        { "rythme": "Tous les 3 mois", "fois_par_an": 4, "texte": "Vous évitez d'accumuler les tensions." },
+        { "rythme": "Tous les mois", "fois_par_an": 12, "texte": "Vous prenez vraiment soin de vous." }
+      ]
+    }
+  },
+
+  "mentions_legales": {
+    "titre": "Mentions légales",
+    "mise_a_jour": "20 octobre 2026",
+    "sections": [
+      {
+        "titre": "Éditeur du site",
+        "lignes": [
+          "Nom commercial : À la douce heure",
+          "Exploitante : Nathalie Chatelet",
+          "Statut juridique : Entreprise individuelle (micro-entreprise)",
+          "Numéro SIRET : 941 495 228 00012",
+          "TVA : non applicable, article 293 B du CGI",
+          "Adresse : 1, La Ville Rouault, 35290 Gaël",
+          "Téléphone : 06 13 92 34 59",
+          "E-mail : aladouceheure35@gmail.com",
+          "Directrice de la publication : Nathalie Chatelet"
+        ]
+      },
+      {
+        "titre": "Hébergement",
+        "lignes": [
+          "Hébergeur : GitHub, Inc. (service GitHub Pages)"
+        ]
+      },
+      {
+        "titre": "Propriété intellectuelle",
+        "lignes": [
+          "Les textes, les photos et le logo de ce site appartiennent à À la douce heure, sauf mention contraire. Toute reproduction sans autorisation est interdite.",
+          "Création du logo : Morgan Messier",
+          "Photos des massages : Pixabay (licence Pixabay). Photos d'ambiance : banque d'images libres de droits. Logo de GaElles coaching fitness : propriété de GaElles coaching fitness.",
+          "Icônes : Phosphor Icons (licence MIT). Polices de caractères : Outfit et Lato (licence SIL Open Font License)."
+        ]
+      },
+      {
+        "titre": "Informations sur les massages",
+        "lignes": [
+          "Les massages proposés sont des massages de bien-être et de détente. Ils ne remplacent pas un avis ou un suivi médical.",
+          "En cas de doute ou de problème de santé, demandez un avis médical avant la séance."
+        ]
+      }
+    ]
+  },
+
+  "confidentialite": {
+    "titre": "Politique de confidentialité",
+    "mise_a_jour": "19 octobre 2026",
+    "sections": [
+      {
+        "titre": "En résumé",
+        "lignes": [
+          "Ce site ne dépose aucun cookie et n'utilise aucun traceur ni outil de mesure d'audience.",
+          "Le site ne collecte aucune donnée personnelle : il ne contient pas de formulaire."
+        ]
+      },
+      {
+        "titre": "Responsable",
+        "lignes": [
+          "Nathalie Chatelet, À la douce heure, 1, La Ville Rouault, 35290 Gaël.",
+          "Contact : aladouceheure35@gmail.com"
+        ]
+      },
+      {
+        "titre": "Hébergement du site",
+        "lignes": [
+          "Comme pour tout site internet, l'hébergeur peut enregistrer des données techniques de connexion (par exemple l'adresse IP) pour assurer la sécurité et le bon fonctionnement du service. Ces données ne sont pas utilisées par À la douce heure.",
+          "Hébergeur : GitHub, Inc. (service GitHub Pages). Sa déclaration de confidentialité : https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+        ]
+      },
+      {
+        "titre": "Prise de rendez-vous en ligne",
+        "lignes": [
+          "Le bouton « Prendre rendez-vous » ouvre le site Perfactive, un service extérieur. Les informations que vous y saisissez sont traitées par Perfactive, selon sa propre politique de confidentialité.",
+          "Politique de confidentialité de Perfactive : https://perfactive.fr/confidentiality"
+        ]
+      },
+      {
+        "titre": "Achat de bons cadeaux en ligne",
+        "lignes": [
+          "Le bouton « Offrir un bon cadeau en ligne » ouvre la boutique À la douce heure, proposée par MY-SHOOP, un service extérieur. Les informations et le paiement que vous y saisissez relèvent de ce service, selon ses propres conditions et sa politique de données personnelles (liens en bas de la boutique)."
+        ]
+      },
+      {
+        "titre": "Contact par téléphone ou par e-mail",
+        "lignes": [
+          "Les informations que vous transmettez par téléphone ou par e-mail servent à répondre à votre demande et à organiser votre rendez-vous.",
+          "Durée de conservation : 3 ans."
+        ]
+      },
+      {
+        "titre": "Liens vers d'autres sites",
+        "lignes": [
+          "Le lien « Itinéraire » ouvre Google Maps. Les liens vers d'autres sites (Perfactive, la boutique de bons cadeaux MY-SHOOP, Google, Instagram, GaElles coaching fitness) vous font quitter ce site : leurs propres règles s'appliquent."
+        ]
+      },
+      {
+        "titre": "Vos droits",
+        "lignes": [
+          "Vous pouvez demander l'accès, la rectification ou la suppression de vos informations en écrivant à aladouceheure35@gmail.com.",
+          "Vous pouvez aussi adresser une réclamation à la CNIL (www.cnil.fr)."
+        ]
+      }
+    ]
+  }
+}
